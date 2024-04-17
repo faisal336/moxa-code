@@ -1,0 +1,11 @@
+cmd=saveGauge
+gaugeprocess=yes
+gtype=TLS350
+enviro=yes
+sunoco=no
+gbaud1=57600
+gpar1=even
+gdata1=8
+gbaud2=115200
+gpar2=even
+gdata2=8

@@ -1,0 +1,97 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:05 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:08 [migration/0]
+    4 ?        S      0:00 [ksoftirqd/0]
+    5 ?        S      0:00 [watchdog/0]
+    6 ?        S      0:13 [migration/1]
+    7 ?        S      0:00 [ksoftirqd/1]
+    8 ?        S      0:00 [watchdog/1]
+    9 ?        S      0:00 [events/0]
+   10 ?        S     69:55 [events/1]
+   11 ?        S      0:00 [cpuset]
+   12 ?        S      0:00 [khelper]
+   13 ?        S      0:00 [netns]
+   14 ?        S      0:00 [async/mgr]
+   15 ?        S      0:00 [pm]
+   16 ?        S      0:00 [sync_supers]
+   17 ?        S      0:00 [bdi-default]
+   18 ?        S      0:00 [kintegrityd/0]
+   19 ?        S      0:00 [kintegrityd/1]
+   20 ?        S      0:16 [kblockd/0]
+   21 ?        S      0:03 [kblockd/1]
+   22 ?        S      0:00 [kacpid]
+   23 ?        S      0:00 [kacpi_notify]
+   24 ?        S      0:00 [kacpi_hotplug]
+   25 ?        S      0:00 [ata/0]
+   26 ?        S      0:00 [ata/1]
+   27 ?        S      0:00 [ata_aux]
+   28 ?        S      0:00 [ksuspend_usbd]
+   29 ?        S      0:00 [khubd]
+   30 ?        S      0:00 [kseriod]
+   33 ?        S      0:00 [khungtaskd]
+   34 ?        S      0:00 [kswapd0]
+   35 ?        SN     0:00 [ksmd]
+   36 ?        SN     0:01 [khugepaged]
+   37 ?        S      0:00 [aio/0]
+   38 ?        S      0:00 [aio/1]
+   39 ?        S      0:00 [crypto/0]
+   40 ?        S      0:00 [crypto/1]
+   48 ?        S      0:00 [kpsmoused]
+   49 ?        S      0:00 [usbhid_resumer]
+   79 ?        S      0:00 [kstriped]
+  126 ?        S      0:00 [i915]
+  127 ?        S<     0:00 [kslowd000]
+  128 ?        S<     0:00 [kslowd001]
+  234 ?        S      0:00 [scsi_eh_0]
+  235 ?        S      0:00 [scsi_eh_1]
+  295 ?        S      1:55 [jbd2/sda2-8]
+  296 ?        S      0:00 [ext4-dio-unwrit]
+  297 ?        S      0:00 [ext4-dio-unwrit]
+  316 ?        S      0:02 [flush-8:0]
+  349 ?        S      0:25 [kauditd]
+  381 ?        S<s    0:00 /sbin/udevd -d
+  551 ?        S      0:00 [hd-audio0]
+  707 ?        S      0:00 [jbd2/sda1-8]
+  708 ?        S      0:00 [ext4-dio-unwrit]
+  709 ?        S      0:00 [ext4-dio-unwrit]
+ 1025 ?        S      3:58 /sbin/ifplugd -i eth0 -fwI -u0 -d10
+ 1085 ?        Sl     1:24 /sbin/rsyslogd -c 4
+ 1171 ?        Ss     0:00 mdadm --monitor --scan -f --pid-file=/var/run/mdadm/mdadm.pid
+ 1196 ?        S      0:00 [rpciod/0]
+ 1197 ?        S      0:00 [rpciod/1]
+ 1204 ?        Ss     0:00 rpc.idmapd
+ 1255 ?        Ss     0:00 cupsd -C /etc/cups/cupsd.conf
+ 1280 ?        Ss     0:00 /usr/sbin/acpid
+ 1290 ?        S      0:00 hald-runner
+ 1327 ?        S      0:00 hald-addon-input: Listening on /dev/input/event0 /dev/input/event1
+ 1359 ?        S<     0:00 /sbin/udevd -d
+ 1360 ?        S<     0:00 /sbin/udevd -d
+ 1365 ?        Ssl    3:06 automount --pid-file /var/run/autofs.pid
+ 1432 ?        S      0:00 /bin/sh /usr/bin/mysqld_safe --datadir=/var/lib/mysql --socket=/var/lib/mysql/mysql.sock --pid-file=/var/run/mysqld/mysqld.pid --basedir=/usr --user=mysql
+ 1618 ?        Ss     0:01 /usr/libexec/postfix/master
+ 1629 ?        Ss     0:19 /usr/sbin/abrtd
+ 1641 ?        S      0:00 /usr/sbin/nss_pcache off /etc/httpd/alias
+ 1643 ?        Ssl    4:20 /usr/sbin/httpd
+ 1653 ?        S     10:19 /bin/bash /usr/sbin/ksmtuned
+ 1663 ?        Ss     1:17 crond
+ 1676 ?        Ss     0:00 /usr/sbin/atd
+ 1693 ?        Sl     0:01 libvirtd --daemon
+ 1857 ?        Ss    67:41 /usr/bin/php /root/progs/webadmin.php
+ 1862 tty1     Ss+    0:00 /sbin/mingetty /dev/tty1
+ 1864 tty2     Ss+    0:00 /sbin/mingetty /dev/tty2
+ 1866 tty3     Ss+    0:00 /sbin/mingetty /dev/tty3
+ 1868 tty4     Ss+    0:00 /sbin/mingetty /dev/tty4
+ 1870 tty5     Ss+    0:00 /sbin/mingetty /dev/tty5
+ 1872 tty6     Ss+    0:00 /sbin/mingetty /dev/tty6
+ 1897 ?        S<sl   2:11 auditd
+ 6470 ?        Ss     0:00 /usr/sbin/sshd
+11476 ?        Ss     0:00 sshd: root@pts/0 
+11478 pts/0    Ss+    0:00 -bash
+13675 ?        Ss     0:00 sshd: root@pts/1 
+13690 pts/1    Ss+    0:00 -bash
+14236 ?        Ss     0:07 sshd: root@notty 
+14273 ?        Ss     0:02 /usr/libexec/openssh/sftp-server
+21064 ?        S      0:00 sleep 60
+21080 ?        S      0:00 sh -c ps x > /var/www/html/cmds/showproc.rsp
+21081 ?        R      0:00 ps x

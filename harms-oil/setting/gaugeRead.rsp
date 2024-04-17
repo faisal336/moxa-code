@@ -1,0 +1,7 @@
+process=1
+enviroment=1
+type=EBW
+frequency=1200
+baudrate=1200
+parity=ODD
+databits=8

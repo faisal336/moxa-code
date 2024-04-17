@@ -1,0 +1,2 @@
+cmd=showver
+response=true

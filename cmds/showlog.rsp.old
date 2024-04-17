@@ -1,0 +1,20 @@
+Apr 24 11:00:01 MASTER-MINISERVER2 sshd[6470]: Server listening on 0.0.0.0 port 22.
+Apr 24 11:00:01 MASTER-MINISERVER2 sshd[6470]: Server listening on :: port 22.
+Apr 24 11:09:39 MASTER-MINISERVER2 sshd[6780]: Connection closed by 10.24.6.9
+Apr 24 11:19:39 MASTER-MINISERVER2 sshd[7126]: Connection closed by 10.24.6.9
+Apr 24 11:29:39 MASTER-MINISERVER2 sshd[7416]: Connection closed by 10.24.6.9
+Apr 24 11:39:39 MASTER-MINISERVER2 sshd[7706]: Connection closed by 10.24.6.9
+Apr 24 11:49:39 MASTER-MINISERVER2 sshd[8053]: Connection closed by 10.24.6.9
+Apr 24 11:59:39 MASTER-MINISERVER2 sshd[8343]: Connection closed by 10.24.6.9
+Apr 24 12:09:39 MASTER-MINISERVER2 sshd[8666]: Connection closed by 10.24.6.9
+Apr 24 12:19:39 MASTER-MINISERVER2 sshd[9012]: Connection closed by 10.24.6.9
+Apr 24 12:29:39 MASTER-MINISERVER2 sshd[9295]: Connection closed by 10.24.6.9
+Apr 24 12:39:39 MASTER-MINISERVER2 sshd[9585]: Connection closed by 10.24.6.9
+Apr 24 12:40:54 MASTER-MINISERVER2 ntpd[1396]: synchronized to 173.230.149.23, stratum 2
+Apr 24 12:49:39 MASTER-MINISERVER2 sshd[9931]: Connection closed by 10.24.6.9
+Apr 24 12:59:39 MASTER-MINISERVER2 sshd[10221]: Connection closed by 10.24.6.9
+Apr 24 13:09:39 MASTER-MINISERVER2 sshd[10526]: Connection closed by 10.24.6.9
+Apr 24 13:19:39 MASTER-MINISERVER2 sshd[10872]: Connection closed by 10.24.6.9
+Apr 24 13:29:39 MASTER-MINISERVER2 sshd[11163]: Connection closed by 10.24.6.9
+Apr 24 13:39:39 MASTER-MINISERVER2 sshd[11453]: Connection closed by 10.24.6.9
+Apr 24 13:40:30 MASTER-MINISERVER2 sshd[11476]: Accepted password for root from 10.24.2.37 port 49462 ssh2

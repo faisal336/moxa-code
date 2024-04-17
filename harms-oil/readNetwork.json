@@ -1,0 +1,8 @@
+{
+    "ipsetting": "off",
+    "ip": "123.99.11.11",
+    "subnetmask": "122.21.11.1",
+    "gateway": "112.11.11.11",
+    "dns1": "custom1.simplelogix.com",
+    "dns2": "custom2.simplelogix.com"
+}

@@ -1,0 +1,7 @@
+cmd=saveGaugeSettings
+GaugeProcessEnabled=yes
+GaugeEnvironmentEnabled=no
+GaugeType=INCON
+GaugeBaudRate=9600
+GaugeParity=none
+GaugeDataBits=8

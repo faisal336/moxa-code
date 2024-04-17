@@ -1,0 +1,27 @@
+#Configure file for POS reading
+#
+#
+#Baud Rates Supported: 50 - 38400
+baud=9600
+#Parity supported: EVEN, ODD, NONE
+par=none
+#databits supported:  7 or 8, alway 1 stop bit
+datab=8
+#in the axis board com2 is ttyS2 should not need to change
+tty=/dev/ttyUSB1
+#The following two for GSITE
+#lookfor=R E P O R T,
+#The following for most RUBYs
+lookfor=REPORT,T
+#the following for Vision sites
+#lookfor=RUNNING TOTALS,
+#postype=GSITE
+postype=RUBY
+#postype=VISION
+#postype=MEMSII
+#how much time to wait in seconds before sending the close
+#good value for Rubys and Gsites
+#wait=900
+#good value for MEMSII and Vision sites
+wait=750
+

@@ -1,0 +1,68 @@
+# This is the configuration file for all gauge processes and communications
+# to the tank monitor.  Blank lines and lines starting with '#' are ignored
+
+# print debugging info to the screen (foreground). This does not affect syslog messages
+verbose
+
+# LEGACY DB INTERFACE
+# uncomment this to skip checking the mysql database
+#skipdb
+
+# GAUGE FOR IP
+# define a port to enable listening for commands on the network
+# this uses a TCP/IP listener capable of 10 concurrent connections
+# comment this out to disable this feature
+port=10001
+
+# by default, the program will search for proper baud/parity if the configured
+# settings do not work.  Uncomment this line to turn that off
+noautobaud
+
+# GAUGE PROCESS
+# serail port definition for communications to the tank monitor (TLS250,etc...)
+gauge=/dev/ttyS0
+# manually setup the comm parameters.  If these are not defined, default to 9600-8N1
+# 1200 2400 4800 9600 19200 38400 57600 115200
+tankbaud=1200
+# 7/8
+tankdata=7
+# O/E/N
+tankpar=O
+# 1/2
+tankstop=1
+# the max amount of time in milliseconds (increments of 200ms please) to wait
+# for a response from the tank monitor before moving on to the next message
+timeout=5000
+# define the gauge type
+#gt=TLS350
+# and the tankcnt
+tankcnt=5
+# override internal comport timeout.  This is for development use ONLY!!
+#itime=4
+
+# GAUGE FOR POS
+# pos port is enabled for SUNOCO (or similar) sites.  If enabled, this comport will
+# be checked for messages to pass-thru to the tank monitor
+#pos=/dev/ttyUSB0
+posbaud=9600
+posdata=7
+pospar=E
+posstop=1
+
+# SEND TO THIS PARTY
+# configure these two parameters to send alarm messages to another party
+#alarmip=0.0.0.0
+#alarmport=10001
+
+# ENVIRONMENTALS
+# configure the ewrate for how often (hrs) they should be sent.
+# comment out to disable environmentals
+ewrate=24
+# droprate determines how often drops are sent (minutes) defaults to 4 hours
+droprate=60
+# rate determines inventory rate in minutes
+rate=60
+
+
+# pass thru cache
+ptcache=15000,600,1800

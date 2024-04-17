@@ -1,0 +1,6 @@
+process=0
+enviroment=1
+type=9600
+baudrate=9600
+parity=Even
+databits=7
